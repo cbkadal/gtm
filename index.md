@@ -1,5 +1,9 @@
 ---
 layout: "urls"
 ---
-* [00-README-ls-alR.txt](00-README-ls-alR.txt)
-* [TMP](TMP/)
+
+* [What is Grounded Theory?](GTM/gtm-027.md)
+
+* [The Discovery Book](GTM/gtm-100.md)
+
+* [GTM](GTM/)

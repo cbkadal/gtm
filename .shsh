@@ -16,7 +16,9 @@ function mkidx {
     for II in $(ls) ; do
         [ "$II" == "index.md" ] && continue
         [ -f $II ] && echo "* [$II]($II)"       >> index.md
+        [ -f $II ] && echo ""                   >> index.md
         [ -d $II ] && echo "* [$II]($II/)"      >> index.md
+        [ -d $II ] && echo ""                   >> index.md
         [ -d $II ] && $(mkidx $II)
     done
 
@@ -30,11 +32,15 @@ cat > index.md << NNNN
 ---
 layout: "urls"
 ---
+
+* [What is Grounded Theory?](GTM/gtm-027.md)
+
+* [The Discovery Book](GTM/gtm-100.md)
+
 NNNN
 
 for II in \
-    ${README}.txt \
-    TMP           \
+    GTM   \
 ; do
     [ -f $II ] && echo "* [$II]($II)"   >> index.md
     [ -d $II ] && echo "* [$II]($II/)"  >> index.md
