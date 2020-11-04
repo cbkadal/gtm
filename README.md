@@ -1,0 +1,2 @@
+# gtm
+Grounded Theory Methodology
