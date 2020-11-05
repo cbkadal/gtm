@@ -13,6 +13,7 @@ README.md
 _site
 
 ./GTM:
+gtm-025.md
 gtm-027.md
 gtm-100.md
 index.md
@@ -44,6 +45,7 @@ blacktocat.png
 bullet.png
 
 ./_site/GTM:
+gtm-025.html
 gtm-027.html
 gtm-100.html
 index.html
