@@ -1,51 +1,7 @@
 #!/bin/bash
-# A script to generate index.md in every folder.
+# Thu 08 Jul 2021 10:20:41 WIB
 
-# REV01: Wed Nov  4 21:08:56 WIB 2020
-# START: Wed Nov  4 20:41:19 WIB 2020
+echo -n "XYZZY.."
+echo ". Nothing happens..."
 
-# Copyright (C) 2020-2020 Rahmat M. Samik-Ibrahim http://RahmatM.Samik-Ibrahim.vLSM.org/
-# This program is free script/software. This program is distributed in the hope 
-# that it will be useful, but WITHOUT ANY WARRANTY; without even the implied 
-# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-
-
-function mkidx {
-    cd $1
-    printf -- '---\nlayout: "urls"\n---\n'      >  index.md
-    for II in $(ls) ; do
-        [ "$II" == "index.md" ] && continue
-        [ -f $II ] && echo "* [$II]($II)"       >> index.md
-        [ -f $II ] && echo ""                   >> index.md
-        [ -d $II ] && echo "* [$II]($II/)"      >> index.md
-        [ -d $II ] && echo ""                   >> index.md
-        [ -d $II ] && $(mkidx $II)
-    done
-
-    cd ..
-}
-
-README="00-README-ls-alR"
-ls -R > ${README}.txt
-
-cat > index.md << NNNN
----
-layout: "urls"
----
-
-* [What is Grounded Theory?](GTM/gtm-027.md)
-
-* [The Discovery Book](GTM/gtm-100.md)
-
-NNNN
-
-for II in \
-    GTM   \
-; do
-    [ -f $II ] && echo "* [$II]($II)"   >> index.md
-    [ -d $II ] && echo "* [$II]($II/)"  >> index.md
-    [ -d $II ] && mkidx $II
-done
-
-exit 0
 

@@ -1,0 +1,28 @@
+title:       "The Grounded Theory Page"
+version:     "006--02-Aug-2021"
+copyright:   "2021-2021"
+description: >- 
+  This is a
+  GitHub Page Template
+# baseurl: "" # e.g. /blog
+# url: ""     # e.g. http://example.com
+google_analytics: "UA-89852122-13"
+author:           "Chuck von Manteuffel"
+address:          "Cologne, 50859"
+sitemap:          "true"
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+urlweb:           "https://gtm.vlsm.org/"
+urlcontact:       "TBA"
+urlgithub:        "https://github.com/cbkadal/gtm/"
+urlghpage:        "https://gtm.vlsm.org/"
+keywords:         "jekyll, testing"
+github:
+- metadata
+defaults:
+- scope:
+    path: ""
+  values:
+    layout: "layout"
+
