@@ -1,4 +1,4 @@
-version:     "011--03-Aug-2021"
+version:     "012--03-Aug-2021"
 copyright:   "2021-2021"
 title:       "The Grounded Theory Page"
 description:
@@ -6,7 +6,7 @@ description:
   Grounded Theory Page.
 disclaimer:
   I have spoken.
-keywords:         "jekyll, testing"
+keywords:    "jekyll, testing"
 navbarlinks:
 - navbar:    "Home"
   link:      "/"
@@ -18,7 +18,7 @@ navbarlinks:
   link:      "/ABOUT/"
 - navbar:    "GitHub Page"
   link:      "https://gtm.vlsm.org/"
-author:      "Chuck von Manteuffel"
+author:      "Chuck von manTeuffel"
 address:     "Cologne, 50859"
 markdown:    "kramdown"
 sitemap:     "true"
