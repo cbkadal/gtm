@@ -1,0 +1,96 @@
+\newcommand{\rev}{00 - 03-Aug-2021}
+% REV01 Tue 03 Aug 2021 11:09:18 WIB
+% START Tue 03 Aug 2021 11:09:10 WIB
+
+\documentclass[12pt]{book}
+\usepackage[a4paper, margin=50pt]{geometry}
+\usepackage[dvipsnames,table,xcdraw]{xcolor}
+\usepackage{colortbl}
+\usepackage[hidelinks]{hyperref}
+\usepackage[pdftex]{graphicx}
+\definecolor{links}{HTML}{0011FF}
+\hypersetup{colorlinks,linkcolor=,urlcolor=links}
+
+% Should be loaded after the hyperref and bookmark packages
+\usepackage{chngcntr}
+\counterwithin*{chapter}{part}
+% \counterwithout{chapter}{part}
+
+\newcommand{\pengarangs}{%
+    Chuck von Manteuffel (ed.)
+}
+\newcommand{\judul}{%
+Grounded Theory\\[8pt] Copy and Paste
+}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}    
+
+    \vspace*{15mm}
+    \textbf{\Large \judul}
+
+    \vspace*{30mm}       
+    \textbf{by}
+
+    \vspace*{15mm}    
+    \textbf{\Large \pengarangs}
+
+    \vspace*{4.0cm}
+
+    \begin{center}
+        \includegraphics[width=40mm]{ucls-coat}
+    \end{center}
+
+    \textbf{
+       Universe Centra Le Sahara (UCLS)\\[10pt]
+       Omar Bakry School of Management\\[10pt]
+       Jabal Acacus Campus, Ghat. \\[10pt]
+       Rev. \rev%
+    }
+
+    \vspace*{15mm}    
+    \textbf{\LARGE \textcolor{red}{***** Always Work In Progress *****}}
+
+    \end{center}
+
+\end{titlepage}
+
+\pagenumbering{roman}
+
+\tableofcontents
+
+\newpage
+
+\chapter*{Preface}
+\addcontentsline{toc}{chapter}{Preface}
+
+StarBucks ipsum dolor J.CO Do Not!
+McD ipsum dolor Wendy’s Burger King. 
+KFC urna libero, in purus hana masa, sore wa tempura hokben.
+\\[1pt]
+
+\noindent
+=== Rev. \rev ===
+
+\newpage
+
+\pagenumbering{arabic}
+
+\part{One}
+\input{01-01.tex}
+\part{Two}
+\input{02-01.tex}
+\part{Three}
+\input{03-01.tex}
+\part{Four}
+\input{04-01.tex}
+\part{Take Note!}
+\input{Full-License.tex}
+
+% %%%%%%%%%%%%%%%%
+\end{document}%%%%
+% End of document.
+% %%%%%%%%%%%%%%%%
+
