@@ -14,7 +14,7 @@ DEPFILES= \
     ucls-coat.jpg        \
     Makefile             \
 
-ALL:	$(FILE1).pdf
+ALL:	$(FILE1).pdf clean
 
 $(FILE1).pdf: $(DEPFILES)
 	pdflatex $(FILE1)
