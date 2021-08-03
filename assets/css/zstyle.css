@@ -130,38 +130,34 @@
 }
 
 .navbar {
+  background-color: #101010;
+  color:            #FFFFFF;
   font-size:        0.8em;
-  border-width:     0px;
-  margin:           0px;
 }
 
 .navbar ul li {
-  display:          inline-block;
-  background-color: hsla(0,     0%,    0%, 1);
-  padding:          11px;
+  display:        inline-block;
+  padding:        1px;
+  padding-top:    10px;
+  padding-bottom: 10px;
 }
 
 .navbar ul li a {
-  text-decoration:  none;
+  text-decoration: none;
 }
 
 .navbar ul li a:hover {
-  background-color: hsla(255,   100%,   50%, 1);
-  font-size:        1.15em;
+  background:       blue;
+  color:            #CCCCCC;
+  font-size:        1.2em;
   font-weight:      bold;
-  padding:          2px;
 }
 
 pre {
-  background-color: hsla(0,     0%,    0%, 1);
-  border:           1px solid hsla(0,    50%,   20%, 1);
-  padding:          10px;
-  font-size:        16px;
-  color:            hsla(0,   100%,  100%, 1);
-  border-radius:    2px;
-  word-wrap:        normal;
-  overflow:         auto;
-  overflow-y:       hidden;
+  border:        3px solid rgba(255, 255, 255, 0.15);
+  padding:       10px; 
+  color:         #b5e853;
+  border-radius: 2px;
 }
 
 table {
@@ -228,5 +224,4 @@ td {
 /*
  ************************************************************
  */
-
 

@@ -44,11 +44,11 @@ title:  "GitHub Page Configuration Files"
 ```
 
 <br>
-### _layouts/layout.html
+### _layouts/default.html
 
 ```
 {% raw %}
-(> _layouts/layout.html <)
+(> _layouts/default.html <)
 {% endraw %}
 ```
 

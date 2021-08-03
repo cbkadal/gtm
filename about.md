@@ -4,7 +4,11 @@ permalink: /ABOUT/
 
 # About
 
-TBA.
+This is a GitHub Page template on GitHub.
+Fill free to clone/fork/hijack/whatever it!
+* GitHub Page: <{{ site.urlweb }}>
+* GitHub: <{{ site.urlgithub }}>
+* [TARBALL]('{{ site.baseurl }}//template.tar.bz2')
 
 <br>
 # Contact
@@ -12,5 +16,5 @@ TBA.
 Yada... yada... yada... visit [GitHub]({{ site.urlgithub }}).
 
 <br>
-# Jawohl!
+# Qapla!
 
