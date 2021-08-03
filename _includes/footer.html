@@ -1,9 +1,13 @@
 <div>
 <hr>
 <div>
-&copy; {{ site.copyright }} --- {{ site.author }} --- Revision: {{ site.version }}.
+&copy; {{ site.copyright }} --- {{ site.author }} --- 
+{% for ii in site.navbarlinks %}    
+  {% if ii.navbar == "About" %}
+    <a href="{{ ii.link | relative_url }}">{{ ii.navbar }}</a> ---
+  {% endif %}
+{% endfor %}
+Revision: {{ site.version }}.
 </div>
 </div>
-
-
 
