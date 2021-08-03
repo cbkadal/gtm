@@ -7,6 +7,8 @@ permalink: /ABOUT/
 This is a Grounded Theory Page on GitHub.
 Fill free to clone/fork/hijack/whatever it!
 
+Email: \<cbkadal [@T] vlsm dot org\>
+
 <br>
 # More Information
 
