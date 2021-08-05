@@ -1,10 +1,14 @@
-\newcommand{\rev}{01 - 03-Aug-2021}
+\newcommand{\rev}{03 - 05-Aug-2021}
+% REV03 Thu 05 Aug 2021 13:00:00 WIB
 % REV01 Tue 03 Aug 2021 13:50:00 WIB
 % START Tue 03 Aug 2021 11:09:10 WIB
 
 \documentclass[12pt]{book}
 \usepackage[a4paper, margin=50pt]{geometry}
 \usepackage[dvipsnames,table,xcdraw]{xcolor}
+\usepackage[sectionbib]{natbib}
+\usepackage{chapterbib}
+\usepackage{tocbibind}
 \usepackage{colortbl}
 \usepackage[hidelinks]{hyperref}
 \usepackage[pdftex]{graphicx}
@@ -20,7 +24,7 @@
     Chuck von manTeuffel (ed.)
 }
 \newcommand{\judul}{%
-Grounded Theory\\[8pt] Copy and Paste
+Copy and Paste
 }
 
 \begin{document}
@@ -67,7 +71,7 @@ Grounded Theory\\[8pt] Copy and Paste
 \addcontentsline{toc}{chapter}{Preface}
 
 StarBucks ipsum dolor J.CO Do Not!
-McD ipsum dolor Wendy’s Burger King. 
+McD ipsum dolor Wendy’s Burger King.
 KFC urna libero, in purus hana masa, sore wa tempura hokben.
 \\[1pt]
 
@@ -78,16 +82,16 @@ KFC urna libero, in purus hana masa, sore wa tempura hokben.
 
 \pagenumbering{arabic}
 
-\part{One}
-\input{01-01.tex}
+\part{Full Articles}
+\include{01-01}
 \part{Two}
-\input{02-01.tex}
+\include{02-01}
 \part{Three}
-\input{03-01.tex}
+\include{03-01}
 \part{Four}
-\input{04-01.tex}
+\include{04-01}
 \part{Take Note!}
-\input{Full-License.tex}
+\include{End}
 
 % %%%%%%%%%%%%%%%%
 \end{document}%%%%

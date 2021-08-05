@@ -1,0 +1,8 @@
+#!/bin/bash
+# Thu 05 Aug 2021 14:14:49 WIB
+
+for II in *.aux ; do
+    [ -f $II ] && bibtex $II
+done
+
+ls > /dev/null
