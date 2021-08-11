@@ -25,7 +25,7 @@ $(FILE1).pdf: $(DEPFILES)
 	bash .shsh
 	pdflatex $(FILE1)
 	pdflatex $(FILE1)
-	rm -f *.aux *.bbl *.blg *.idx *.log *.out *.toc
+	rm -f *.aux *.bbl *.bcf *.blg *.idx *.log *.out *.toc
 
 cleanpdf: clean
 	rm -f *.pdf
